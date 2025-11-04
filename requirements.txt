@@ -6,3 +6,10 @@ pandas
 shapely.geometry
 pathlib
 #to be continued
+
+#Bibliotecas usadas para Interface e Visualização
+streamlit
+streamlit-folium
+folium
+matplotlib
+seaborn
