@@ -1,0 +1,50 @@
+name: CI/CD → DigitalOcean
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v2
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      - name: Install doctl
+        uses: digitalocean/action-doctl@v2
+        with:
+          token: ${{ secrets.DO_API_TOKEN }}
+
+      - name: Log in to DigitalOcean Container Registry
+        run: doctl registry login
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v4
+        with:
+          push: true
+          tags: |
+            registry.digitalocean.com/${{ secrets.DO_REGISTRY }}/mapa-turismo:latest
+            registry.digitalocean.com/${{ secrets.DO_REGISTRY }}/mapa-turismo:${{ github.sha }}
+          file: ./Dockerfile
+
+      - name: Trigger App Platform redeploy (optional)
+        if: secrets.DO_APP_ID != ''
+        env:
+          DO_API_TOKEN: ${{ secrets.DO_API_TOKEN }}
+          DO_APP_ID: ${{ secrets.DO_APP_ID }}
+        run: |
+          echo "Triggering deploy for App ID: $DO_APP_ID"
+          curl -X POST "https://api.digitalocean.com/v2/apps/$DO_APP_ID/deployments" \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer $DO_API_TOKEN" \
+            -d '{}' -sS
