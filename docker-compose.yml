@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - PORT=8501
+    restart: unless-stopped
+    volumes:
+      - ./:/app:ro
+
+  static:
+    image: nginx:stable-alpine
+    ports:
+      - "8080:80"
+    volumes:
+      - ./outputs:/usr/share/nginx/html:ro
+    restart: unless-stopped
+
