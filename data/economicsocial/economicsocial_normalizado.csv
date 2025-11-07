@@ -1,16 +1,16 @@
-nome_ponto_turistico,provincia,lat,lon,populacao,densidade_pop,pib_per_capita,idh,taxa_urbanizacao,emprego_turismo
-Quedas de Calandula,Malanje,-9.075025,16.001131,95533,412.4,4015.12,0.543,50.1,14.0
-Miradouro da Lua,Luanda,-9.221147,13.090001,52641,422.9,2765.22,0.59,69.3,13.1
-Museu Kulumbimbi,Zaire,-6.264389,14.245581,54008,151.1,1998.99,0.726,41.5,12.5
-Reserva Parcial do Namibe,Namibe,-15.76676,12.399914,166079,200.8,1815.76,0.624,44.9,7.5
-Fortaleza de São Miguel,Luanda,-8.808343416048587,13.223444621289627,192436,250.0,3426.64,0.678,70.6,8.8
-Ilha do Mussulo,Luanda,-8.964635,13.050462,149545,75.7,1971.12,0.709,58.4,12.0
-Cânion do Rio Kalandula,Malanje,-9.074959,16.001378,146136,227.6,4019.48,0.702,66.4,5.5
-Parque Nacional da Quiçama,Luanda,-9.750007,13.583333,59107,310.9,1332.83,0.72,73.9,3.7
-Cristo Rei,Huambo,-14.940039,13.51186,241196,133.8,3077.07,0.548,52.5,13.8
-Serra da Leba,Huíla,-15.0788,13.2397,190364,326.9,3448.02,0.686,80.2,8.8
-Fenda da Tundavala,Huíla,-14.817465,13.381539,139330,250.1,3629.64,0.452,35.8,11.8
-Baía Azul,Benguela,-12.627978,13.234185,222717,48.7,1804.5,0.677,84.2,14.6
-Quedas do Rio Chiumbe,Moxico,-11.02138,20.20318,182239,257.3,4499.43,0.657,72.9,7.8
-Parque Nacional de Cameia,Moxico,-11.883338,21.666681,87433,128.6,2766.27,0.533,41.5,9.7
-Grutas do Nzenzo,Uíge,-7.520192,14.565103,196382,82.7,1388.53,0.567,41.6,8.3
+nome,provincia,populacao,densidade_pop,pib_per_capita,idh,taxa_urbanizacao,emprego_turismo
+Quedas de Calandula,Malanje,129958,77.1,1898.31,0.522,80.6,3.2
+Miradouro da Lua,Luanda,154867,298.1,1471.82,0.655,68.6,8.1
+Museu Kulumbimbi,Zaire,139932,39.5,3055.16,0.633,44.6,7.7
+Reserva Parcial do Namibe,Namibe,111694,329.1,2347.39,0.7,59.2,6.5
+Fortaleza de São Miguel,Luanda,127879,423.3,4149.69,0.502,56.3,3.2
+Ilha do Mussulo,Luanda,118268,15.3,2600.29,0.567,82.7,5.4
+Cânion do Rio Kalandula,Malanje,215892,446.6,3779.82,0.505,75.7,11.5
+Parque Nacional da Quiçama,Luanda,62886,283.6,3240.92,0.677,69.8,12.5
+Cristo Rei,Huambo,145337,281.1,2551.5,0.578,57.4,10.3
+Serra da Leba,Huíla,221458,18.1,1239.79,0.512,60.2,14.1
+Fenda da Tundavala,Huíla,176266,25.0,4026.61,0.62,82.9,10.8
+Baía Azul,Benguela,95498,243.3,2889.86,0.459,61.4,14.0
+Quedas do Rio Chiumbe,Moxico,120727,188.9,2356.25,0.703,41.6,13.2
+Parque Nacional de Cameia,Moxico,134324,35.3,1247.9,0.585,42.8,8.4
+Grutas do Nzenzo,Uíge,183203,438.6,1892.68,0.569,34.9,4.1

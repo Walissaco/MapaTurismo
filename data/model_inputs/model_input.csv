@@ -1,16 +1,125 @@
-nome_ponto_turistico_clima,provincia_clima,lat_clima,lon_clima,temp_med_anual,precipitacao_anual,ndvi,evi,ndwi,altitude,populacao,densidade_pop,pib_per_capita,idh,taxa_urbanizacao,emprego_turismo,distancia_estrada_principal_km,distancia_cidade_km
-Quedas de Calandula,Malanje,-9.075025,16.001131,28.8,218.9,0.8,0.16,0.02,287.0,95533,412.4,4015.12,0.543,50.1,14.0,2.7,157.6
-Miradouro da Lua,Luanda,-9.221147,13.090001,24.8,304.1,0.77,0.68,0.08,1148.0,52641,422.9,2765.22,0.59,69.3,13.1,1.4,11.0
-Museu Kulumbimbi,Zaire,-6.264389,14.245581,27.8,343.0,0.2,0.46,0.08,683.0,54008,151.1,1998.99,0.726,41.5,12.5,6.0,38.5
-Reserva Parcial do Namibe,Namibe,-15.76676,12.399914,24.3,286.7,0.15,0.6,0.04,362.0,166079,200.8,1815.76,0.624,44.9,7.5,6.6,106.4
-Fortaleza de São Miguel,Luanda,-8.808343416048587,13.223444621289628,28.1,158.6,0.62,0.47,0.16,1192.0,192436,250.0,3426.64,0.678,70.6,8.8,4.3,129.0
-Ilha do Mussulo,Luanda,-8.964635,13.050462,28.7,160.2,0.38,0.68,0.03,48.0,149545,75.7,1971.12,0.709,58.4,12.0,1.9,78.2
-Cânion do Rio Kalandula,Malanje,-9.074959,16.001378,25.8,282.0,0.33,0.11,0.04,102.0,146136,227.6,4019.48,0.702,66.4,5.5,0.6,123.8
-Parque Nacional da Quiçama,Luanda,-9.750007,13.583333,28.7,232.6,0.21,0.68,0.12,1004.0,59107,310.9,1332.83,0.72,73.9,3.7,2.4,40.1
-Cristo Rei,Huambo,-14.940039,13.51186,28.5,282.5,0.57,0.59,0.05,663.0,241196,133.8,3077.07,0.548,52.5,13.8,4.8,83.1
-Serra da Leba,Huíla,-15.0788,13.2397,27.1,237.4,0.35,0.15,0.15,1070.0,190364,326.9,3448.02,0.686,80.2,8.8,1.4,69.4
-Fenda da Tundavala,Huíla,-14.817465,13.381539,28.5,255.9,0.1,0.24,0.19,455.0,139330,250.1,3629.64,0.452,35.8,11.8,2.6,145.5
-Baía Azul,Benguela,-12.627978,13.234185,28.7,267.9,0.21,0.19,0.01,1009.0,222717,48.7,1804.5,0.677,84.2,14.6,0.6,119.8
-Quedas do Rio Chiumbe,Moxico,-11.02138,20.20318,24.7,270.2,0.37,0.55,0.15,457.0,182239,257.3,4499.43,0.657,72.9,7.8,4.4,81.7
-Parque Nacional de Cameia,Moxico,-11.883338,21.666681,24.1,241.7,0.75,0.27,0.03,1166.0,87433,128.6,2766.27,0.533,41.5,9.7,0.7,152.4
-Grutas do Nzenzo,Uíge,-7.520192,14.565103,25.7,342.1,0.51,0.63,0.03,218.0,196382,82.7,1388.53,0.567,41.6,8.3,7.5,95.5
+poi_nome,provincia,latitude,longitude,tempmedanual,precipitacaoanual,ndvi,evi,ndwi,lulccodigo,altitude,populacao,densidadepop,pibpercapita,idh,taxaurbanizacao,empregoturismo,distanciaestradaprincipalkm,distanciacidadekm,acessibilidade,tipoviaacesso,infraestrutura,servicosdisponiveis,densidadepopulacionalhabkm
+Quedas de Calandula,Malanje,-9.074067,16.000316,23.5,1350,0.72,0.64,0.09,20,1058,129958,77.1,1898.31,0.522,65.6,4.2,0.5,5.0,Razoavel,Terra Batida,Basica,Energia,77.1
+Miradouro da Lua,Luanda,-9.221147,13.090001,27.8,320,0.26,0.18,0.12,60,112,2825311,315.1,4471.82,0.695,90.1,18.1,2.5,45.0,Boa,Pavimentada,Completa,"Energia, telecom",430.0
+Museu Kulumbimbi,Zaire,-6.264389,14.245581,26.2,1150,0.78,0.71,0.12,20,590,95432,39.5,2155.16,0.533,44.6,6.7,0.1,1.0,Boa,Pavimentada,Media,"Energia, telecom",39.5
+Reserva Parcial do Namibe,Namibe,-15.76676,12.399914,25.4,85,0.08,0.05,0.02,60,300,45194,5.1,2347.39,0.571,59.2,8.5,35.0,120.0,Dificil,Terra Batida,Nenhuma,Nenhum,5.1
+Fortaleza de São Miguel,Luanda,-8.808343,13.223444,27.9,325,0.15,0.12,0.11,50,45,2955432,423.3,4949.69,0.702,91.3,15.2,0.0,0.0,Boa,Pavimentada,Completa,"Energia, telecom",423.3
+Ilha do Mussulo,Luanda,-8.964635,13.050462,28.1,295,0.09,0.07,0.18,60,5,18268,15.3,3600.29,0.667,82.7,25.4,1.0,15.0,Boa,Barco,Completa,"Energia, telecom, hospedagem",520.0
+Cristo Rei Lubango,Huíla,-14.940039,13.51186,19.5,950,0.55,0.46,0.03,30,1950,731575,65.2,2015.45,0.608,72.4,11.3,0.2,3.0,Boa,Pavimentada,Completa,"Energia, telecom",128.0
+Serra da Leba,Huíla,-15.0788,13.2397,19.2,1050,0.61,0.52,0.05,30,1850,22145,18.1,1239.79,0.512,60.2,14.1,1.0,15.0,Boa,Pavimentada,Media,"Telecom, energia",120.0
+Fenda da Tundavala,Huíla,-14.817465,13.381539,18.5,980,0.58,0.49,0.04,30,2200,17626,25.0,1826.61,0.58,68.9,10.8,2.2,10.0,Boa,Pavimentada,Media,"Telecom, energia",125.0
+Baía Azul,Benguela,-12.627978,13.234185,27.1,280,0.05,0.11,0.04,60,12,95498,243.3,2889.86,0.659,71.4,24.0,1.2,7.5,Boa,Pavimentada,Completa,"Energia, telecom, hospedagem",340.0
+Quedas do Rio Chiumbe,Moxico,-11.02138,20.20318,22.3,1250,0.75,0.68,0.2,20,1100,25727,8.9,1356.25,0.483,41.6,5.2,15.0,55.0,Dificil,Terra Batida,Nenhuma,Nenhum,8.9
+Parque Nacional de Cameia,Moxico,-11.883338,21.666681,22.1,1200,0.68,0.59,0.15,30,1150,34324,3.3,1247.9,0.485,42.8,3.4,40.0,150.0,Dificil,Terra Batida,Nenhuma,Nenhum,3.3
+Grutas do Nzenzo,Uíge,-7.520192,14.565103,24.1,1550,0.8,0.72,0.1,20,850,83203,38.6,1492.68,0.469,34.9,4.1,8.0,25.0,Razoavel,Terra Batida,Basica,Energia,38.6
+Quedas do Ruacaná,Cunene,-17.3761,14.2258,26.8,310,0.34,0.29,0.09,40,1100,65432,6.7,1750.8,0.545,55.2,5.1,12.0,80.0,Razoavel,Terra Batida,Basica,"Energia",6.7
+Parque Nacional da Mupa,Cunene,-16.4167,15.5833,26.1,480,0.48,0.41,0.12,30,1150,12345,1.8,1690.2,0.501,41.3,2.9,60.0,200.0,Dificil,Terra Batida,Nenhuma,"Nenhum",1.8
+Memorial do Rei Mandume ya Ndemufayo,Cunene,-17.2619,15.6542,27.0,350,0.35,0.28,0.07,30,1120,54321,5.4,1810.5,0.556,58.1,4.5,5.0,25.0,Boa,Pavimentada,Media,"Energia, telecom",5.4
+Jardim Botânico de Kilombo,Cuanza Sul,-9.2981,14.9125,25.5,950,0.61,0.54,0.04,20,550,45678,22.1,1550.7,0.498,48.7,3.8,2.0,10.0,Boa,Pavimentada,Basica,"Energia",22.1
+Fortaleza de Massangano,Cuanza Norte,-9.6386,14.2372,26.5,1100,0.68,0.61,0.08,20,120,39876,18.5,1480.9,0.476,39.8,3.1,1.5,5.0,Razoavel,Pavimentada,Basica,"Energia",18.5
+Barragem de Cambambe,Cuanza Norte,-9.755,14.4847,25.8,1050,0.7,0.62,0.1,30,350,65432,30.2,1980.1,0.562,55.4,7.8,0.5,8.0,Boa,Pavimentada,Completa,"Energia, telecom",30.2
+Cachoeiras do Binga,Cuanza Sul,-11.3541,14.1678,24.3,1100,0.75,0.68,0.15,20,550,32109,15.6,1320.4,0.453,35.1,2.5,25.0,70.0,Dificil,Terra Batida,Nenhuma,"Nenhum",15.6
+Grutas de Sassa,Cuanza Sul,-11.1333,14.4833,22.8,1050,0.76,0.69,0.14,30,980,28765,13.2,1290.8,0.449,33.8,2.2,22.0,65.0,Dificil,Terra Batida,Nenhuma,"Nenhum",13.2
+Porto Amboim,Cuanza Sul,-10.725,13.7583,26.7,450,0.12,0.1,0.08,50,15,89765,150.2,2750.6,0.642,75.3,19.8,0.0,0.0,Boa,Pavimentada,Completa,"Energia, telecom, hospedagem",150.2
+Praia da Sumbe,Cuanza Sul,-11.2053,13.8436,27.0,400,0.1,0.08,0.07,60,8,75432,130.5,2680.1,0.635,73.1,18.5,0.0,0.0,Boa,Pavimentada,Completa,"Energia, telecom, hospedagem",130.5
+Museu do Dundo,Lunda Norte,-7.3789,20.8358,22.5,1400,0.79,0.72,0.18,20,850,189765,25.8,1950.4,0.511,40.2,6.8,1.2,3.0,Boa,Pavimentada,Media,"Energia, telecom",25.8
+Cataratas de Luachimo,Lunda Norte,-7.3667,20.85,21.9,1450,0.8,0.73,0.22,20,950,15432,2.1,1880.9,0.505,38.9,4.2,5.0,15.0,Razoavel,Terra Batida,Basica,"Energia",2.1
+Monumento do Soldado Desconhecido (Saurimo),Lunda Sul,-9.6614,20.3914,21.5,1350,0.77,0.7,0.17,20,1080,201456,28.7,2010.2,0.534,45.8,7.1,0.0,0.0,Boa,Pavimentada,Completa,"Energia, telecom",28.7
+Rio Cassai,Lunda Sul,-9.8333,21.5,22.0,1400,0.81,0.74,0.25,80,900,18765,2.5,1280.7,0.445,35.6,2.8,70.0,250.0,Dificil,Nenhuma,Nenhuma,"Nenhum",2.5
+Marginal de Luanda,Luanda,-8.810556,13.230278,27.8,500,0.1,0.09,0.1,50,10,3012345,450.1,5100.2,0.721,92.5,22.1,0.0,0.0,Boa,Pavimentada,Completa,"Energia, telecom",450.1
+Banco Nacional de Angola,Luanda,-8.812328,13.231268,27.9,510,0.1,0.09,0.1,50,25,3100000,480.2,5250.4,0.728,93.1,23.4,0.0,0.0,Boa,Pavimentada,Completa,"Energia, telecom",480.2
+Museu da Moeda,Luanda,-8.811394,13.231845,27.8,505,0.1,0.09,0.1,50,18,3050000,470.5,5180.6,0.725,92.8,22.8,0.0,0.0,Boa,Pavimentada,Completa,"Energia, telecom",470.5
+Museu Nacional de Antropologia,Luanda,-8.8164,13.2282,27.9,515,0.1,0.1,0.1,50,30,2980000,460.3,5050.8,0.719,92.2,21.9,0.0,0.0,Boa,Pavimentada,Completa,"Energia, telecom",460.3
+Praia de Cabo Ledo,Luanda,-9.673323,13.199464,27.4,600,0.09,0.08,0.15,60,12,8765,9.8,2800.2,0.612,65.7,19.2,3.5,60.0,Boa,Pavimentada,Media,"Hospedagem",9.8
+Praia de Sangano,Luanda,-9.519391,13.262529,27.3,610,0.09,0.08,0.14,60,10,5432,7.1,2750.9,0.608,63.2,18.8,4.1,55.0,Boa,Pavimentada,Media,"Hospedagem",7.1
+Parque Nacional da Quiçama,Luanda,-9.75,13.583333,26.5,750,0.39,0.35,0.1,30,150,2345,0.2,1100.4,0.458,25.4,1.8,25.0,80.0,Razoavel,Terra Batida,Nenhuma,"Nenhum",0.2
+Rápidos do Kwanza,Luanda,-9.3175,13.5688,26.1,850,0.53,0.49,0.18,20,80,12345,12.5,1450.6,0.489,45.6,4.5,8.0,40.0,Razoavel,Terra Batida,Basica,"Energia",12.5
+Centro Cultural Agostinho Neto,Luanda,-8.8142,13.2307,27.9,520,0.11,0.1,0.1,50,35,3080000,475.2,5210.3,0.726,92.9,23.1,0.0,0.0,Boa,Pavimentada,Completa,"Energia, telecom",475.2
+Palácio de Ferro,Luanda,-8.8159,13.2274,27.9,518,0.11,0.1,0.1,50,28,3060000,472.9,5190.9,0.724,92.7,22.9,0.0,0.0,Boa,Pavimentada,Completa,"Energia, telecom",472.9
+Largo da Independencia,Luanda,-8.8315,13.2355,27.9,522,0.11,0.1,0.1,50,40,3120000,482.3,5280.3,0.73,93.3,23.5,0.0,0.0,Boa,Pavimentada,Completa,"Energia, telecom",482.3
+Museu de Historia Natural,Luanda,-8.8197,13.2268,27.9,516,0.11,0.1,0.1,50,32,3020000,465.7,5110.5,0.722,92.4,22.3,0.0,0.0,Boa,Pavimentada,Completa,"Energia, telecom",465.7
+Museu Nacional da Escravatura,Luanda,-8.9897,13.1232,27.6,580,0.09,0.09,0.16,50,15,45678,45.3,2950.8,0.621,70.8,15.7,2.8,25.0,Boa,Pavimentada,Media,"Energia",45.3
+Igreja de Nossa Senhora dos Remédios,Luanda,-8.8126,13.2302,27.9,525,0.11,0.1,0.1,50,45,3150000,485.8,5310.6,0.732,93.5,23.8,0.0,0.0,Boa,Pavimentada,Completa,"Energia, telecom",485.8
+Igreja de Jesus,Luanda,-8.8145,13.2291,27.9,523,0.11,0.1,0.1,50,42,3130000,483.3,5290.8,0.731,93.4,23.6,0.0,0.0,Boa,Pavimentada,Completa,"Energia, telecom",483.3
+Mausoléu de Agostinho Neto,Luanda,-8.8115,13.2405,27.9,512,0.1,0.09,0.1,50,20,3090000,478.1,5230.2,0.727,93.0,23.2,0.0,0.0,Boa,Pavimentada,Completa,"Energia, telecom",478.1
+Praia da Baía Farta,Benguela,-12.6075,13.2008,26.8,320,0.08,0.07,0.06,60,5,65432,120.8,2550.4,0.618,68.7,21.3,0.5,5.0,Boa,Pavimentada,Media,"Energia, hospedagem",120.8
+Praia Morena,Benguela,-12.5765,13.4093,26.9,340,0.08,0.07,0.06,60,7,150234,280.3,2980.6,0.665,75.9,23.9,0.0,0.0,Boa,Pavimentada,Completa,"Energia, telecom, hospedagem",280.3
+Praia da Caota,Benguela,-12.7238,13.1363,26.7,280,0.07,0.07,0.05,60,4,12345,15.1,2300.2,0.595,60.1,17.6,8.2,20.0,Razoavel,Terra Batida,Basica,"Nenhum",15.1
+Praia da Catumbela,Benguela,-12.4468,13.5245,27.0,360,0.08,0.07,0.06,60,8,78910,160.7,2780.8,0.641,72.3,22.1,0.2,2.0,Boa,Pavimentada,Media,"Energia, telecom",160.7
+Praia do Lobito,Benguela,-12.3553,13.5592,27.1,380,0.08,0.08,0.07,60,9,201876,350.2,3100.2,0.678,80.1,25.2,0.0,0.0,Boa,Pavimentada,Completa,"Energia, telecom, hospedagem",350.2
+A Restinga (Lobito),Benguela,-12.3333,13.5708,27.2,390,0.09,0.08,0.07,60,3,15432,205.9,3050.9,0.675,79.5,26.1,0.0,1.0,Boa,Pavimentada,Completa,"Hospedagem",205.9
+Praia das Palmeiras,Benguela,-12.595,13.388,27.3,420,0.09,0.08,0.08,60,11,89102,180.4,2850.4,0.652,74.3,23.4,0.1,1.5,Boa,Pavimentada,Media,"Energia, hospedagem",180.4
+Cavaco (zona ribeirinha),Benguela,-12.6105,13.356,26.5,450,0.28,0.25,0.12,30,30,54321,90.5,1950.6,0.554,61.4,12.5,2.1,8.0,Razoavel,Terra Batida,Basica,"Energia",90.5
+Igreja da Nossa Senhora do Pópulo,Benguela,-12.5833,13.405,27.0,400,0.17,0.15,0.09,50,25,148765,275.7,2950.8,0.663,75.6,23.7,0.0,0.0,Boa,Pavimentada,Completa,"Energia, telecom",275.7
+Mercado Municipal de Benguela,Benguela,-12.5815,13.4074,27.1,410,0.16,0.14,0.09,50,35,149876,278.3,2960.2,0.664,75.8,23.8,0.0,0.0,Boa,Pavimentada,Completa,"Energia, telecom",278.3
+Ruínas do Forte de São Pedro,Benguela,-12.45,13.5333,27.2,420,0.14,0.13,0.08,50,40,79812,162.7,2790.9,0.643,72.8,22.4,0.3,2.5,Boa,Pavimentada,Media,"Energia, telecom",162.7
+Fazenda Camumbila (ecoturismo),Benguela,-12.793,13.844,24.5,800,0.45,0.41,0.15,30,600,8765,9.3,1400.4,0.485,40.5,5.7,15.8,45.0,Dificil,Terra Batida,Basica,"Energia",9.3
+Ponta do Cuio,Benguela,-12.693,13.161,26.6,250,0.07,0.06,0.05,60,3,5432,8.8,2250.6,0.589,58.9,16.9,10.1,25.0,Razoavel,Terra Batida,Basica,"Nenhum",8.8
+Praia de Caxito,Bengo,-8.5786,13.6644,26.8,900,0.34,0.31,0.1,30,40,120456,150.1,1800.2,0.548,60.8,8.7,0.1,1.0,Boa,Pavimentada,Media,"Energia, telecom",150.1
+Lagoa do Panguila,Bengo,-8.7611,13.4333,26.9,850,0.42,0.39,0.18,80,25,25432,30.7,1650.9,0.521,55.9,6.8,5.4,18.0,Razoavel,Terra Batida,Basica,"Energia",30.7
+Foz do Rio Dande,Bengo,-8.4986,13.3833,27.0,880,0.39,0.35,0.16,80,2,34567,45.3,1750.4,0.539,58.1,7.1,2.3,10.0,Boa,Pavimentada,Media,"Energia, telecom",45.3
+Parque Nacional da Kissama (Lado Bengo),Bengo,-9.1986,13.4912,26.4,780,0.4,0.37,0.11,30,180,3456,0.4,1120.6,0.462,28.4,2.1,22.0,75.0,Dificil,Terra Batida,Nenhuma,"Nenhum",0.4
+Covil do Galo,Huíla,-14.93,13.483,20.1,1150,0.31,0.29,0.06,60,1600,4567,5.3,1150.9,0.472,40.1,4.2,6.5,15.0,Razoavel,Terra Batida,Basica,"Nenhum",5.3
+Cascata da Huíla,Huíla,-14.896,13.628,19.8,1300,0.64,0.59,0.15,20,1700,12345,14.1,1300.4,0.501,45.8,5.7,8.7,22.0,Razoavel,Terra Batida,Basica,"Energia",14.1
+Jardim do Ulundo,Huíla,-14.885,13.541,19.6,1250,0.53,0.49,0.12,30,1800,721567,64.8,1990.2,0.605,71.5,10.9,0.5,2.0,Boa,Pavimentada,Completa,"Energia, telecom",64.8
+Miradouro da Chela,Huíla,-15.1,13.25,18.8,1120,0.4,0.37,0.08,60,2100,8765,9.1,1280.9,0.499,55.8,8.7,4.3,18.0,Boa,Pavimentada,Media,"Telecom",9.1
+Monumento ao Milénio,Huíla,-14.918,13.497,19.7,1180,0.47,0.43,0.1,50,1750,728432,65.0,1999.7,0.607,72.0,11.1,0.1,1.0,Boa,Pavimentada,Completa,"Energia, telecom",65.0
+Planalto da Huíla,Huíla,-14.75,14.5,19.4,1220,0.5,0.46,0.11,30,1900,187654,19.3,1450.6,0.523,50.3,6.4,15.6,45.0,Razoavel,Terra Batida,Basica,"Energia",19.3
+Parque Nacional da Bicuar,Huíla,-15.1667,15,22.1,1000,0.56,0.51,0.12,30,1200,5432,0.7,1200.2,0.478,35.1,2.8,45.0,150.0,Dificil,Terra Batida,Nenhuma,"Nenhum",0.7
+Tundavala Eco Resort,Huíla,-14.814,13.385,18.6,1110,0.42,0.39,0.09,30,2200,1543,1.8,2500.9,0.615,65.6,15.8,2.5,10.5,Boa,Pavimentada,Media,"Hospedagem, energia",1.8
+Lagoa da Lua (Huíla),Huíla,-14.771,13.558,19.9,1150,0.45,0.41,0.16,80,1700,25432,28.3,1650.4,0.541,58.3,7.9,6.7,20.0,Razoavel,Terra Batida,Basica,"Energia",28.3
+Ponte das Neves,Huíla,-15.021,13.351,20.0,1130,0.43,0.4,0.1,50,1650,45678,48.1,1550.6,0.532,56.1,7.1,3.4,12.0,Boa,Pavimentada,Media,"Telecom",48.1
+Deserto do Namibe,Namibe,-15.76676,12.399914,25.5,80,0.04,0.03,0.02,60,300,1234,0.1,1900.3,0.551,50.5,4.5,80.0,250.0,Dificil,Nenhuma,Nenhuma,"Nenhum",0.1
+Arco do Carvalhão,Namibe,-15.75,11.8333,26.1,120,0.06,0.05,0.03,60,50,876,0.9,2100.4,0.575,55.1,6.2,25.0,70.0,Dificil,Terra Batida,Nenhuma,"Nenhum",0.9
+Praia das Miragens,Namibe,-15.183,12.15,26.3,100,0.05,0.04,0.03,60,8,3456,38.7,2450.6,0.601,60.3,12.4,5.8,15.0,Razoavel,Terra Batida,Basica,"Hospedagem",38.7
+Praia da Amélia,Namibe,-15.197,12.148,26.4,110,0.05,0.05,0.03,60,7,4567,42.3,2480.2,0.605,61.4,12.8,5.1,14.0,Razoavel,Terra Batida,Basica,"Hospedagem",42.3
+Oasis do Arco,Namibe,-15.823,11.9,25.8,150,0.23,0.21,0.08,30,80,1234,1.1,2200.9,0.582,56.7,7.8,30.0,85.0,Dificil,Terra Batida,Nenhuma,"Nenhum",1.1
+Parque Nacional do Iona,Namibe,-16.6667,12.3333,24.3,200,0.17,0.15,0.05,60,500,876,0.1,1500.7,0.495,30.3,2.3,100.0,300.0,Dificil,Nenhuma,Nenhuma,"Nenhum",0.1
+Dunas do Namibe,Namibe,-15.2,12.1,25.8,60,0.02,0.02,0.01,60,150,543,0.5,2050.3,0.568,52.8,5.7,35.0,90.0,Dificil,Nenhuma,Nenhuma,"Nenhum",0.5
+Tômbua,Namibe,-15.8,11.85,25.9,150,0.06,0.06,0.03,50,20,28765,250.9,2800.2,0.638,70.9,20.1,0.0,0.0,Boa,Pavimentada,Completa,"Energia, telecom, hospedagem",250.9
+Resort do Pululukwa,Huíla,-14.992,13.507,21.1,1050,0.42,0.39,0.09,30,1500,2345,2.1,2900.9,0.625,68.7,18.2,8.5,25.0,Boa,Pavimentada,Media,"Hospedagem, energia",2.1
+Monte Negro (Namibe),Namibe,-17.216,11.766,23.5,400,0.28,0.25,0.08,60,1100,1543,1.4,1350.5,0.482,40.5,3.1,65.0,200.0,Dificil,Terra Batida,Nenhuma,"Nenhum",1.4
+Lagoa dos Flamingos,Namibe,-15.79,11.89,26.0,250,0.2,0.19,0.1,80,5,345,0.3,2350.6,0.592,58.1,9.1,28.0,75.0,Dificil,Terra Batida,Nenhuma,"Nenhum",0.3
+Pedras Negras de Pungo Andongo,Malanje,-9.7408,15.5975,22.3,1200,0.56,0.51,0.08,60,1150,15432,14.1,1480.2,0.508,48.1,5.3,10.2,30.0,Razoavel,Terra Batida,Basica,"Energia",14.1
+Quedas do Lucala,Malanje,-9.075025,16.001131,22.8,1300,0.69,0.63,0.15,20,900,128995,76.5,1880.3,0.521,65.2,4.1,0.6,5.5,Razoavel,Terra Batida,Basica,"Energia",76.5
+Parque Nacional de Cangandala,Malanje,-9.75,16.6667,22.5,1350,0.71,0.65,0.16,20,1050,4567,0.4,1150.5,0.465,30.5,1.9,35.0,100.0,Dificil,Terra Batida,Nenhuma,"Nenhum",0.4
+Serra da Palanca,Malanje,-9.9,16.5,21.8,1280,0.64,0.59,0.13,30,1400,8765,8.1,1320.1,0.488,40.8,3.7,18.0,55.0,Dificil,Terra Batida,Nenhuma,"Nenhum",8.1
+Morro do Moco,Huambo,-12.466,15.176,17.5,1500,0.78,0.71,0.2,20,2620,1234,1.1,1500.2,0.518,45.7,4.8,25.0,70.0,Dificil,Terra Batida,Basica,"Nenhum",1.1
+Cristo Rei (Huambo),Huambo,-12.775,15.733,19.8,1300,0.53,0.49,0.11,50,1700,595304,53.8,1850.3,0.598,68.7,9.8,0.1,1.5,Boa,Pavimentada,Completa,"Energia, telecom",53.8
+Jardim Botânico do Huambo,Huambo,-12.78,15.73,19.7,1350,0.58,0.53,0.13,30,1710,593210,53.5,1840.1,0.597,68.5,9.7,0.2,1.8,Boa,Pavimentada,Completa,"Energia, telecom",53.5
+Grutas da Ema,Huambo,-12.8,15.25,20.0,1280,0.45,0.41,0.1,60,1650,23456,21.1,1420.7,0.502,50.1,4.5,12.0,35.0,Razoavel,Terra Batida,Basica,"Energia",21.1
+Lagoa do Cuima,Huambo,-13.06,15.39,19.9,1320,0.5,0.46,0.18,80,1680,34567,31.3,1480.3,0.515,52.3,5.1,10.0,30.0,Razoavel,Terra Batida,Basica,"Energia",31.3
+Rio Cunene (Huambo),Huambo,-13.1,15.1,20.5,1400,0.6,0.55,0.22,20,1500,12345,11.1,1350.9,0.491,48.5,3.9,18.0,50.0,Dificil,Terra Batida,Nenhuma,"Nenhum",11.1
+Serra do Gungo,Huambo,-12.6,15.9,18.8,1450,0.67,0.61,0.18,20,1900,8765,7.9,1380.7,0.495,46.8,4.1,22.0,60.0,Dificil,Terra Batida,Nenhuma,"Nenhum",7.9
+Cascatas da Bomba Alta,Huambo,-12.75,15.78,20.1,1420,0.65,0.6,0.17,20,1600,589765,53.1,1830.6,0.595,68.2,9.5,0.8,4.0,Boa,Pavimentada,Media,"Energia, telecom",53.1
+Museu Regional do Huambo,Huambo,-12.776,15.739,19.8,1310,0.52,0.48,0.11,50,1705,596123,53.9,1855.2,0.599,68.8,9.9,0.0,0.0,Boa,Pavimentada,Completa,"Energia, telecom",53.9
+Nascente do Rio Kwanza,Bié,-11.916,17.416,20.3,1550,0.82,0.75,0.25,20,1450,1234,0.1,1100.9,0.451,25.3,1.5,80.0,250.0,Dificil,Nenhuma,Nenhuma,"Nenhum",0.1
+Rio Cuquema,Bié,-12.5,17,20.8,1480,0.75,0.69,0.23,20,1300,8765,7.8,1180.4,0.463,30.8,2.7,45.0,120.0,Dificil,Terra Batida,Nenhuma,"Nenhum",7.8
+Serra da Canda,Bié,-12.2,17.8,18.5,1460,0.71,0.65,0.19,20,2000,5432,4.8,1250.6,0.475,35.5,3.1,55.0,150.0,Dificil,Terra Batida,Nenhuma,"Nenhum",4.8
+Museu Regional do Bié,Bié,-12.383,16.933,20.1,1250,0.5,0.45,0.1,50,1650,456789,40.1,1750.2,0.581,65.7,8.9,0.0,0.0,Boa,Pavimentada,Completa,"Energia, telecom",40.1
+Caverna de Nhia,Bié,-12.6,16.7,20.5,1200,0.42,0.39,0.09,60,1500,15432,13.5,1380.9,0.492,48.5,4.2,15.0,40.0,Razoavel,Terra Batida,Basica,"Energia",13.5
+Jardim da Pouca-Vergonha (Kuito),Bié,-12.3833,16.9333,20.0,1260,0.51,0.47,0.11,30,1655,457890,40.2,1755.4,0.582,65.9,9.0,0.1,0.5,Boa,Pavimentada,Completa,"Energia, telecom",40.2
+Morro da Chimbango,Bié,-12.4333,16.85,19.5,1300,0.56,0.51,0.12,30,1800,45123,39.5,1730.6,0.575,64.8,8.5,2.5,8.0,Boa,Pavimentada,Media,"Energia, telecom",39.5
+Lago Dilolo,Moxico,-11.516,20.1,22.1,1400,0.67,0.61,0.28,80,1080,18765,1.5,1250.2,0.471,35.1,3.2,50.0,180.0,Dificil,Terra Batida,Nenhuma,"Nenhum",1.5
+Rio Luena,Moxico,-11.783,19.916,21.9,1450,0.71,0.65,0.24,20,1100,201456,16.8,1380.9,0.49,40.1,4.8,0.0,0.0,Razoavel,Pavimentada,Media,"Energia, telecom",16.8
+Serra do Moxico,Moxico,-11.5,19,21.5,1350,0.65,0.6,0.15,30,1300,12345,1.1,1180.4,0.461,30.5,2.9,60.0,200.0,Dificil,Terra Batida,Nenhuma,"Nenhum",1.1
+Nascente do Rio Zambeze,Moxico,-11.185,24.301,20.2,1600,0.86,0.79,0.29,20,1500,876,0.1,1050.6,0.448,22.3,1.2,100.0,350.0,Dificil,Nenhuma,Nenhuma,"Nenhum",0.1
+Quedas do Lulovo,Uíge,-7.7,15.3,21.9,1500,0.76,0.7,0.19,20,1150,23456,19.8,1390.4,0.485,38.7,3.9,12.0,35.0,Razoavel,Terra Batida,Basica,"Energia",19.8
+Serra do Pingano,Uíge,-7.1,14.8,20.8,1250,0.6,0.55,0.13,30,1450,15432,13.1,1310.6,0.479,35.8,3.2,25.0,70.0,Dificil,Terra Batida,Nenhuma,"Nenhum",13.1
+Rio Loge,Uíge,-7.83,13.1,24.5,1100,0.64,0.59,0.16,20,500,45678,38.9,1450.2,0.495,40.1,4.1,8.0,25.0,Razoavel,Terra Batida,Basica,"Energia",38.9
+Floresta do Kitombe,Uíge,-7.4,15.5,23.1,1300,0.82,0.75,0.22,10,800,8765,7.4,1280.9,0.472,33.4,2.8,30.0,80.0,Dificil,Terra Batida,Nenhuma,"Nenhum",7.4
+Igreja de São José (Uíge),Uíge,-7.6086,15.0614,22.9,1250,0.5,0.46,0.1,50,850,201456,170.1,1650.6,0.571,60.9,7.8,0.0,0.0,Boa,Pavimentada,Completa,"Energia, telecom",170.1
+Mercado do Songo,Uíge,-7.1167,15.05,23.0,1220,0.47,0.43,0.1,50,860,187654,158.5,1620.2,0.565,58.7,7.1,0.5,2.0,Boa,Pavimentada,Media,"Energia, telecom",158.5
+Floresta do Mayombe,Cabinda,-4.833,12.5,24.5,1800,0.89,0.81,0.28,10,600,2345,2.1,2800.9,0.595,30.1,3.5,40.0,100.0,Dificil,Terra Batida,Basica,"Nenhum",2.1
+Praia de Malembo,Cabinda,-5.366,12.183,26.1,950,0.13,0.12,0.1,60,10,45678,401.2,3500.4,0.682,80.5,22.3,1.2,5.0,Boa,Pavimentada,Completa,"Hospedagem, energia",401.2
+Cataratas de Lindana,Cabinda,-5.166,12.183,24.8,1750,0.82,0.75,0.25,20,500,5432,4.8,2950.6,0.612,35.8,4.1,25.0,60.0,Dificil,Terra Batida,Nenhuma,"Nenhum",4.8
+Igreja de Nossa Senhora da Conceição (Cabinda),Cabinda,-5.55,12.2,26.2,1200,0.53,0.49,0.12,50,25,89765,789.5,3800.2,0.695,85.2,19.8,0.0,0.0,Boa,Pavimentada,Completa,"Energia, telecom",789.5
+Cemitério dos Reis de Cabinda,Cabinda,-5.5583,12.1931,26.2,1180,0.51,0.47,0.11,50,20,88654,779.8,3780.9,0.692,84.9,19.5,0.1,0.5,Boa,Pavimentada,Completa,"Energia, telecom",779.8
+Lagoa de Sassa-Zau,Cabinda,-4.8986,12.1167,26.1,1250,0.56,0.51,0.2,80,30,8765,7.7,2850.4,0.601,38.3,5.2,35.0,90.0,Razoavel,Terra Batida,Basica,"Energia",7.7
+Bacia do Cubango-Okavango,Cuando Cubango,-17.5,22.5,23.5,800,0.6,0.55,0.25,30,1000,15432,1.1,1150.6,0.459,28.5,2.1,80.0,250.0,Dificil,Nenhuma,Nenhuma,"Nenhum",1.1
+Cuito Cuanavale (Memorial da Batalha),Cuando Cubango,-15.1667,19.1667,23.1,850,0.53,0.49,0.12,50,1100,65432,4.5,1250.7,0.478,40.1,3.8,0.5,2.0,Boa,Pavimentada,Media,"Energia, telecom",4.5
+Parque Nacional de Luengue-Luiana,Cuando Cubango,-16.25,21.5,23.3,900,0.65,0.6,0.2,30,1050,5432,0.4,1100.3,0.452,25.8,1.9,120.0,400.0,Dificil,Nenhuma,Nenhuma,"Nenhum",0.4
+Rio Cuando,Cuando Cubango,-17.8167,23.3333,23.4,950,0.69,0.63,0.3,80,1020,8765,0.6,1080.1,0.449,24.3,1.5,150.0,500.0,Dificil,Nenhuma,Nenhuma,"Nenhum",0.6
+Foz do Rio Congo,Zaire,-6.0767,12.3551,26.9,1050,0.53,0.49,0.25,80,3,78654,70.1,2050.2,0.541,60.9,9.8,1.5,8.0,Boa,Pavimentada,Media,"Energia, porto",70.1
+Praia dos Pescadores (Soyo),Zaire,-6.1364,12.3686,27.0,1000,0.17,0.15,0.1,60,8,82345,75.1,2100.9,0.548,62.1,11.2,0.1,1.0,Boa,Pavimentada,Completa,"Energia, hospedagem",75.1
+Ponta do Padrão,Zaire,-6.0786,12.3167,27.1,1020,0.2,0.19,0.08,60,5,5432,4.8,1980.4,0.532,55.8,8.1,4.5,15.0,Razoavel,Terra Batida,Basica,"Nenhum",4.8

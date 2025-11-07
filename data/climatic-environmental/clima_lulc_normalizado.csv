@@ -1,16 +1,16 @@
-nome_ponto_turistico,provincia,lat,lon,temp_med_anual,precipitacao_anual,NDVI,EVI,NDWI,LULC_codigo,altitude
-Quedas de Calandula,Malanje,-9.075025,16.001131,28.8,218.9,0.8,0.16,0.02,80,287.0
-Miradouro da Lua,Luanda,-9.221147,13.090001,24.8,304.1,0.77,0.68,0.08,80,1148.0
-Museu Kulumbimbi,Zaire,-6.264389,14.245581,27.8,343.0,0.2,0.46,0.08,50,683.0
-Reserva Parcial do Namibe,Namibe,-15.76676,12.399914,24.3,286.7,0.15,0.6,0.04,60,362.0
-Fortaleza de São Miguel,Luanda,-8.808343416048587,13.223444621289627,28.1,158.6,0.62,0.47,0.16,80,1192.0
-Ilha do Mussulo,Luanda,-8.964635,13.050462,28.7,160.2,0.38,0.68,0.03,70,48.0
-Cânion do Rio Kalandula,Malanje,-9.074959,16.001378,25.8,282.0,0.33,0.11,0.04,50,102.0
-Parque Nacional da Quiçama,Luanda,-9.750007,13.583333,28.7,232.6,0.21,0.68,0.12,80,1004.0
-Cristo Rei,Huambo,-14.940039,13.51186,28.5,282.5,0.57,0.59,0.05,60,663.0
-Serra da Leba,Huíla,-15.0788,13.2397,27.1,237.4,0.35,0.15,0.15,50,1070.0
-Fenda da Tundavala,Huíla,-14.817465,13.381539,28.5,255.9,0.1,0.24,0.19,60,455.0
-Baía Azul,Benguela,-12.627978,13.234185,28.7,267.9,0.21,0.19,0.01,40,1009.0
-Quedas do Rio Chiumbe,Moxico,-11.02138,20.20318,24.7,270.2,0.37,0.55,0.15,50,457.0
-Parque Nacional de Cameia,Moxico,-11.883338,21.666681,24.1,241.7,0.75,0.27,0.03,70,1166.0
-Grutas do Nzenzo,Uíge,-7.520192,14.565103,25.7,342.1,0.51,0.63,0.03,70,218.0
+nome_ponto_turistico,provincia,temp_med_anual,precipitacao_anual,NDVI,EVI,NDWI,LULC_codigo,altitude
+Quedas de Calandula,Malanje,26.3,1290,0.72,0.64,0.09,20,1058
+Miradouro da Lua,Luanda,27.8,320,0.26,0.18,0.12,60,112
+Parque da Kissama,Luanda,26.9,310,0.33,0.25,0.07,30,180
+Baia Azul,Benguela,27.1,280,0.05,0.11,0.04,60,12
+Reserva do Namibe,Namibe,28.5,90,0.02,0.08,0.01,60,60
+Fortaleza de São Miguel,Luanda,27.9,325,0.15,0.12,0.11,50,45
+Ilha do Mussulo,Luanda,28.1,295,0.09,0.07,0.18,60,5
+Museu Kulumbimbi,Zaire,25.8,1450,0.78,0.71,0.12,20,590
+Cristo Rei Lubango,Huila,20.5,950,0.55,0.46,0.03,30,1950
+Serra da Leba,Huila,20.0,1050,0.61,0.52,0.05,30,1850
+Fenda da Tundavala,Huila,20.0,980,0.58,0.49,0.04,30,2200
+Quedas do Rio Chiumbe,Moxico,22.3,1250,0.75,0.68,0.2,20,1100
+Parque Nacional de Cameia,Moxico,22.1,1200,0.68,0.59,0.15,30,1150
+Grutas do Nzenzo,Uige,24.5,1550,0.8,0.72,0.1,20,850
+Cangandala National Park,Malanje,24.2,1350,0.7,0.62,0.08,30,1080

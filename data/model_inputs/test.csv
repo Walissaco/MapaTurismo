@@ -1,0 +1,6 @@
+poi_nome,provincia,latitude,longitude,tempmedanual,precipitacaoanual,ndvi,evi,ndwi,lulccodigo,altitude,populacao,densidadepop,pibpercapita,idh,taxaurbanizacao,empregoturismo,distanciaestradaprincipalkm,distanciacidadekm,acessibilidade,tipoviaacesso,infraestrutura,servicosdisponiveis,densidadepopulacionalhabkm
+Fortaleza de São Miguel,Luanda,-8.808404,13.223257,27.9,325,0.15,0.12,0.11,50,45,2955432,423.3,4949.69,0.702,91.3,15.2,0.0,0.0,Boa,Pavimentada,Completa,"Energia, telecom, hospedagem",423.3
+Parque Nacional da Cameia,Moxico,-11.883491,21.666645,22.1,1200,0.68,0.59,0.15,30,1150,34324,3.3,1247.9,0.485,42.8,3.4,40.0,150.0,Dificil,Terra Batida,Nenhuma,Nenhum,3.3
+Cristo Rei,Huíla,-14.940120,13.512052,19.5,950,0.55,0.46,0.03,30,1950,731575,65.2,2015.45,0.608,72.4,11.3,0.2,3.0,Boa,Pavimentada,Completa,"Energia, telecom",128.0
+Serra da Leba,Huíla,-15.071434,13.236509,20.0,1050,0.61,0.52,0.05,30,1850,22145,18.1,1239.79,0.512,60.2,14.1,0.0,15.0,Boa,Pavimentada,Basica,"Telecom",120.0
+Quedas de Calandula,Malanje,-9.074234,16.000857,23.5,1350,0.72,0.64,0.09,20,1058,129958,77.1,1898.31,0.522,65.6,4.2,0.5,5.0,Razoavel,Pavimentada,Basica,"Energia, hospedagem",77.1

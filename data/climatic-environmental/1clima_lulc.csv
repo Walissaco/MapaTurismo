@@ -1,0 +1,16 @@
+nome_ponto_turistico,provincia,temp_med_anual,precipitacao_anual,NDVI,EVI,NDWI,LULC_codigo,altitude
+Quedas de Calandula,Malanje,26.3,1290,0.72,0.64,0.09,20,1058
+Miradouro da Lua,Luanda,27.8,320,0.26,0.18,0.12,60,112
+Parque da Kissama,Luanda,26.9,310,0.33,0.25,0.07,30,180
+Baia Azul,Benguela,27.1,280,0.05,0.11,0.04,60,12
+Reserva do Namibe,Namibe,28.5,90,0.02,0.08,0.01,60,60
+Fortaleza de São Miguel,Luanda,27.9,325,0.15,0.12,0.11,50,45
+Ilha do Mussulo,Luanda,28.1,295,0.09,0.07,0.18,60,5
+Museu Kulumbimbi,Zaire,25.8,1450,0.78,0.71,0.12,20,590
+Cristo Rei Lubango,Huila,20.5,950,0.55,0.46,0.03,30,1950
+Serra da Leba,Huila,19.8,1050,0.61,0.52,0.05,30,1850
+Fenda da Tundavala,Huila,19.5,980,0.58,0.49,0.04,30,2200
+Quedas do Rio Chiumbe,Moxico,22.3,1250,0.75,0.68,0.20,20,1100
+Parque Nacional de Cameia,Moxico,22.1,1200,0.68,0.59,0.15,30,1150
+Grutas do Nzenzo,Uige,24.5,1550,0.80,0.72,0.10,20,850
+Cangandala National Park,Malanje,24.2,1350,0.70,0.62,0.08,30,1080
